@@ -120,7 +120,6 @@ indianCuisineData.map((item) => {
   div7.appendChild(add);
 });
 
-// export {indianCuisineData};
 
 document.querySelectorAll(".add-to-cart").forEach((item) => {
   item.addEventListener("click", addIt);
