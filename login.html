@@ -101,48 +101,13 @@
       </div>
     </nav>
 
-    <!-- <form class="row g-3 needs-validation bg-dark text-light" novalidate>
-      <div class="col-md-4">
-        <label for="validationCustomUsername" class="form-label"
-          >Username</label
-        >
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="inputGroupPrepend">@</span>
-          <input
-            type="text"
-            class="form-control"
-            id="validationCustomUsername"
-            aria-describedby="inputGroupPrepend"
-            required
-          />
-          <div class="invalid-feedback">Please choose a username.</div>
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            value=""
-            id="invalidCheck"
-            required
-          />
-          <label class="form-check-label" for="invalidCheck">
-            Agree to terms and conditions
-          </label>
-          <div class="invalid-feedback">You must agree before submitting.</div>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </div>
-    </form> -->
- 
-    <div class="login-container m-auto col-md-4 p-5">
-      <h2>Login</h2>
+    <div
+      class="login-container shadow-lg my-5 bg-white rounded m-auto col-md-4 p-5"
+    >
+      <h2 class="text-center">Login</h2>
       <form>
-        <div class="form-group">
-          <label for="email">Email address</label>
+        <div class="my-3">
+          <label for="email" class="fw-medium mb-2">Email address</label>
           <input
             type="email"
             class="form-control"
@@ -151,8 +116,8 @@
             placeholder="Enter email"
           />
         </div>
-        <div class="form-group">
-          <label for="password">Password</label>
+        <div class="my-3">
+          <label for="password" class="fw-medium mb-2">Password</label>
           <input
             type="password"
             class="form-control"
@@ -160,7 +125,11 @@
             placeholder="Password"
           />
         </div>
-        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary btn-block">
+            Submit
+          </button>
+        </div>
       </form>
     </div>
 
