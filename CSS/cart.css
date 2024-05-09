@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+nav {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.font {
+  font-family: "Great Vibes", serif;
+  font-size: xx-large;
+}
+
+body nav {
+  background-color: #f8f9fa;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar-brand .font {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #000;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.different {
+  height: 77px;
+}
+
+.font {
+  font-family: "Great Vibes", serif;
+  font-size: xx-large;
+}
+
+.mainlander {
+  width: 100%;
+  background-color: black;
+}
+.apple,
+.android {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.line {
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+.getfrom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.apple:hover,
+.android:hover {
+  background-color: white;
+}
+
+.apple:hover p,
+.apple:hover h3,
+.apple:hover i {
+  color: black;
+}
+
+.android:hover p,
+.android:hover h3,
+.android:hover i {
+  color: black;
+}
+
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
